@@ -1,0 +1,40 @@
+
+const axios = require("axios");
+
+exports.handler = function(context, event, callback) {
+  let twiml = new Twilio.twiml.MessagingResponse();
+  if (!event.Latitude || !event.Longitude) {
+    twiml.message("If you would like to upload this resource, please send me your location.");
+    callback(null, twiml);
+  } else {
+    const location = {
+      lat: event.Latitude,
+      lon: event.Longitude
+    };
+
+    axios
+      .get( `https://developers.zomato.com/api/v2.1/search?count=10&lat=${location.lat}&lon=${location.lon}&cuisines=healthy%20food`,
+        {
+          headers: {
+            Accept: "application/json",
+            "user-key": context.ZOMATO_API_KEY
+          }
+        }
+      )
+      .then(response => {
+        const resource = response.data.resource;
+
+        restaurants.forEach(resource => {
+          twiml.message(
+            `${resource.resource.name} - ${resource.resource.url}`
+          );
+        });
+
+        callback(null, twiml);
+      })
+      .catch(error => {
+        callback(error);
+      });
+  }
+};
+
