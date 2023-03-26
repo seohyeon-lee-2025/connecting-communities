@@ -1,6 +1,6 @@
 # mlh-allin-hack-2023
 
-<h1 align="center">All-In Hackthon</h1>
+<h1 align="center">MLH All-In Hackathon 2023</h1>
 
 <center>
 <img src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/424/508/datas/full_width.png">
@@ -52,14 +52,14 @@ We have a lot of work to do to bring this concept to fruition.
 
 
 <h3 align="left">Languages and Tools:</h3>
-HMTL/CSS, JavaScript, Wix, Google MAP APIs, Velo, 
+HTML/CSS, JavaScript, Wix, Google MAP APIs, Velo, 
 Twilio, and Cloud Computing Service
 
 
 ### See Website Live: [Here](https://emahtunan.wixsite.com/maargdarshak)
 
 
-#### Please, feel free to connect with team.
+#### Feel free to connect with us!
 
 - [@seohyeon-lee-2025](https://github.com/seohyeon-lee-2025)
 - [@Emmarie-Ahtunan](https://github.com/Emmarie-Ahtunan)
