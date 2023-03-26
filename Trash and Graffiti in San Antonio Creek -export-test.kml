@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Trash and Graffiti in San Antonio Creek -export-test.kml</name>
+	<Schema name="Trash and Graffiti in San Antonio Creek - Sheet1" id="S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+		<SimpleField type="string" name="type"><displayName>&lt;b&gt;type&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="date"><displayName>&lt;b&gt;date&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="description"><displayName>&lt;b&gt;description&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="trash_subtype"><displayName>&lt;b&gt;trash_subtype&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="glass_"><displayName>&lt;b&gt;glass?&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="graffiti_subtype"><displayName>&lt;b&gt;graffiti_subtype&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="latitude"><displayName>&lt;b&gt;latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="longitude"><displayName>&lt;b&gt;longitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="image_file_name"><displayName>&lt;b&gt;image file name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="link_to_image"><displayName>&lt;b&gt;link to image&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>type</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/type]</td></tr>
+  <tr><td><b>date</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/date]</td></tr>
+  <tr><td><b>description</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/description]</td></tr>
+  <tr><td><b>trash_subtype</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/trash_subtype]</td></tr>
+  <tr><td><b>glass?</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/glass_]</td></tr>
+  <tr><td><b>graffiti_subtype</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/graffiti_subtype]</td></tr>
+  <tr><td><b>latitude</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/longitude]</td></tr>
+  <tr><td><b>image file name</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/image_file_name]</td></tr>
+  <tr><td><b>link to image</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/link_to_image]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>type</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/type]</td></tr>
+  <tr><td><b>date</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/date]</td></tr>
+  <tr><td><b>description</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/description]</td></tr>
+  <tr><td><b>trash_subtype</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/trash_subtype]</td></tr>
+  <tr><td><b>glass?</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/glass_]</td></tr>
+  <tr><td><b>graffiti_subtype</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/graffiti_subtype]</td></tr>
+  <tr><td><b>latitude</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/longitude]</td></tr>
+  <tr><td><b>image file name</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/image_file_name]</td></tr>
+  <tr><td><b>link to image</b></td><td>$[Trash and Graffiti in San Antonio Creek - Sheet1/link_to_image]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Trash and Graffiti in San Antonio Creek - Sheet1</name>
+		<open>1</open>
+		<Placemark>
+			<name>white plastic bowl</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">white plastic bowl</SimpleData>
+					<SimpleData name="trash_subtype">recyclable</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">34.1772</SimpleData>
+					<SimpleData name="longitude">-117.675</SimpleData>
+					<SimpleData name="image_file_name">20220726_111054.jpg</SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989808784016</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675432,34.17720400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>soda can and coffee cup</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">soda can and coffee cup</SimpleData>
+					<SimpleData name="trash_subtype">recyclable</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989809128879</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in yellow ink</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">graffiti in yellow ink</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_rock</SimpleData>
+					<SimpleData name="latitude">34.1772</SimpleData>
+					<SimpleData name="longitude">-117.675</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989803673321</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675292,34.177172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in blank ink on pipe on trail</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">graffiti in blank ink on pipe on trail</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_misc</SimpleData>
+					<SimpleData name="latitude">34.1837</SimpleData>
+					<SimpleData name="longitude">-117.675</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989810195533</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675227,34.18367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beer bottle</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">beer bottle</SimpleData>
+					<SimpleData name="trash_subtype">recyclable</SimpleData>
+					<SimpleData name="glass_">Y</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">34.1772</SimpleData>
+					<SimpleData name="longitude">-117.675</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989804595003</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675317,34.17721099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>coconut peel</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">coconut peel</SimpleData>
+					<SimpleData name="trash_subtype">food</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989810861383</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>glass bottles, underwear, plastic honey bottles</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">glass bottles, underwear, plastic honey bottles</SimpleData>
+					<SimpleData name="trash_subtype">misc</SimpleData>
+					<SimpleData name="glass_">Y</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">34.1773</SimpleData>
+					<SimpleData name="longitude">-117.675</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989807688536</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675426,34.177255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>flower bouquet</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">flower bouquet</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">34.1427</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989807153505</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675526,34.14270499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti under bridge</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">graffiti under bridge</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_misc</SimpleData>
+					<SimpleData name="latitude">34.155</SimpleData>
+					<SimpleData name="longitude">-117.674</SimpleData>
+					<SimpleData name="image_file_name"></SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989803564910</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.674166,34.15501799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in pink ink on rock (&quot;world dom&quot;)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/21/2022</SimpleData>
+					<SimpleData name="description">graffiti in pink ink on rock (&quot;world dom&quot;)</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_rock</SimpleData>
+					<SimpleData name="latitude">34.1905</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name">20220721_094053</SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989815840214</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675567,34.19054899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pink cards spread near parking site</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">07/26/2022</SimpleData>
+					<SimpleData name="description">pink cards spread near parking site</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">34.1775</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name">N/A</SimpleData>
+					<SimpleData name="link_to_image">N/A</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675822,34.17750799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in orange ink on rock (&quot;YOU DONT MATTER&quot;)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/21/2022</SimpleData>
+					<SimpleData name="description">graffiti in orange ink on rock (&quot;YOU DONT MATTER&quot;)</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_rock</SimpleData>
+					<SimpleData name="latitude">34.1906</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name">20220721_093737.jpg</SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989818635319</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675556,34.190624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in orange ink on rock (illegible)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/21/2022</SimpleData>
+					<SimpleData name="description">graffiti in orange ink on rock (illegible)</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_rock</SimpleData>
+					<SimpleData name="latitude">34.1906</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name">20220721_094000.jpg</SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989808266055</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675558,34.19055600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>graffiti in pink paint (&quot;DEV love ELI&quot;)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">graffiti</SimpleData>
+					<SimpleData name="date">07/21/2022</SimpleData>
+					<SimpleData name="description">graffiti in pink paint (&quot;DEV love ELI&quot;)</SimpleData>
+					<SimpleData name="trash_subtype">N/A</SimpleData>
+					<SimpleData name="glass_">N/A</SimpleData>
+					<SimpleData name="graffiti_subtype">paint_rock</SimpleData>
+					<SimpleData name="latitude">34.1906</SimpleData>
+					<SimpleData name="longitude">-117.676</SimpleData>
+					<SimpleData name="image_file_name">20220721_094005.jpg</SimpleData>
+					<SimpleData name="link_to_image">https://pomona.app.box.com/file/989819184530</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.675574,34.19060000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>broken glass</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/26/2022</SimpleData>
+					<SimpleData name="description">broken glass</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">Y</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220826_075330</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>metal can</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/26/2022</SimpleData>
+					<SimpleData name="description">metal can</SimpleData>
+					<SimpleData name="trash_subtype">recyclable</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220826_083708</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>food wrappers</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/26/2022</SimpleData>
+					<SimpleData name="description">food wrappers</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220826_083708</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>water bottle with water inside</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/26/2022</SimpleData>
+					<SimpleData name="description">water bottle with water inside</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220826_083702</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>socks</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/26/2022</SimpleData>
+					<SimpleData name="description">socks</SimpleData>
+					<SimpleData name="trash_subtype">landfill</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220826_080005</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>gatorade bottle (also seen at 08.26.2022)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Trash_and_Graffiti_in_San_Antonio_Creek___Sheet1_SSSSSSDDSS">
+					<SimpleData name="type">trash</SimpleData>
+					<SimpleData name="date">08/13/2022</SimpleData>
+					<SimpleData name="description">gatorade bottle (also seen at 08.26.2022)</SimpleData>
+					<SimpleData name="trash_subtype">recyclable</SimpleData>
+					<SimpleData name="glass_">N</SimpleData>
+					<SimpleData name="graffiti_subtype">N/A</SimpleData>
+					<SimpleData name="latitude">0</SimpleData>
+					<SimpleData name="longitude">0</SimpleData>
+					<SimpleData name="image_file_name">20220813_111529</SimpleData>
+					<SimpleData name="link_to_image"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
