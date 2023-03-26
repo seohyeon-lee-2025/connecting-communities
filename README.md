@@ -66,8 +66,8 @@ Twilio, and Cloud Computing Service
 - [@KshitizRana](https://github.com/KshitizRana)
 - [@genno22](https://github.com/genno22)
 
-## Demo video: [Link]()
-## Submission on Devpost: [Link]() (Coming Soon)
+## Demo video: [Link](https://youtu.be/UmXZlGTNXpY)
+## Submission on Devpost: [Link](https://devpost.com/submit-to/17820-all-in-hackathon/manage/submissions/400019-maargdarshak-connecting-communities/finalization) 
 
 
 Happy Hacking !!
