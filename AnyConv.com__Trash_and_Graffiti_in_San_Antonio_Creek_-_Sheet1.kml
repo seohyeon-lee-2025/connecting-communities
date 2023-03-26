@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Sun Mar 26 06:20:40 2023 GMT</snippet>
+    <LookAt>
+      <longitude>4.497500</longitude>
+      <latitude>0.000000</latitude>
+      <range>1301714.465591</range>
+    </LookAt>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>description</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>0.000000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>white plastic bowl</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>soda can and coffee cup</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>graffiti in yellow ink</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>graffiti in blank ink on pipe on trail</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>beer bottle</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>coconut peel</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>&quot;glass bottles</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>flower bouquet</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>graffiti under bridge</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>&quot;graffiti in pink ink on rock (&quot;&quot;world dom&quot;&quot;)&quot;</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.911667,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pink cards spread near parking site</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>&quot;graffiti in orange ink on rock (&quot;&quot;YOU DONT MATTER&quot;&quot;)&quot;</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.911667,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>graffiti in orange ink on rock (illegible)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.911667,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>&quot;graffiti in pink paint (&quot;&quot;DEV love ELI&quot;&quot;)&quot;</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>7.911667,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>broken glass</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>metal can</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>food wrappers</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>water bottle with water inside</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>socks</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.995000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>gatorade bottle (also seen at 08.26.2022)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>8.778333,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
