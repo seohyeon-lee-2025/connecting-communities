@@ -64,7 +64,7 @@ Twilio, and Cloud Computing Service
 - [@seohyeon-lee-2025](https://github.com/seohyeon-lee-2025)
 - [@Emmarie-Ahtunan](https://github.com/Emmarie-Ahtunan)
 - [@KshitizRana](https://github.com/KshitizRana)
-- [@genno22](https://github.com/genno22)
+- [@stlajay](https://github.com/stlajay)
 
 ## Demo video: [Link](https://youtu.be/UmXZlGTNXpY)
 ## Submission on Devpost: [Link](https://devpost.com/submit-to/17820-all-in-hackathon/manage/submissions/400019-maargdarshak-connecting-communities/finalization) 
