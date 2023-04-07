@@ -23,9 +23,9 @@ Maargdarshak: Community Connect is a website where people can upload the locatio
 
 ## How we built it?
 
-Our website, Maargdarshak (the .tech domain we wanted to register but couldn't), which means "One Who Shows the Path" in Hindi, is built in Wix using Velo for an interactive map of community resources as well as with Twilio. We attempted to incorporate Twilio so that members of a community could upload geo-data directly to the map integration on our website. 
+Our website, Maargdarshak , which means "One Who Shows the Path" in Hindi, is built in Wix using Velo for an interactive map of community resources as well as with Twilio. We attempted to incorporate Twilio so that members of a community could upload geo-data directly to the map integration on our website. 
 
-We created a group forum for users who are unable to get to the resources in their community can text or call members of the community who are located near the resources and are willing to bring food, groceries, menstrual products, etcetera to those who need assistance.
+We created a group forum for users who are unable to get to the resources in their community can text or call members of the community who are located near the resources and are willing to bring food, groceries, menstrual products, etc to those who need assistance.
 
 ## Challenges
 
@@ -57,6 +57,7 @@ Twilio, and Cloud Computing Service
 
 
 ### See Website Live: [Here](https://emahtunan.wixsite.com/maargdarshak)
+Survey to add more locations: https://docs.google.com/forms/d/e/1FAIpQLSdD2YPb_RmV2MDQMV6BMHeX_RkSngrqsdybsUuYZLI4sE_luQ/viewform
 
 
 #### Feel free to connect with us!
