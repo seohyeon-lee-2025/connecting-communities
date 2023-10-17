@@ -1,7 +1,3 @@
-# mlh-allin-hack-2023
-
-<h1 align="center">MLH All-In Hackathon 2023</h1>
-
 <center>
 <img src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/424/508/datas/full_width.png">
 </center>
@@ -12,6 +8,8 @@
 
 ## Introduction
 A crowdsourced interactive map for free menstrual products, food pantries, accessible bathrooms, and more!
+
+Awarded Best Hack that Serves Your Community (MLH All In Hackathon Mar 2023)
 
 ## Inspiration 
 Our team was inspired by the grassroots efforts working to coordinate community-based mutual aid responses to COVID-19. 
