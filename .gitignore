@@ -1,0 +1,5 @@
+# Ignore the API key text file
+api_key.txt
+
+# Ignore JSON key files (e.g., service-account-key.json)
+*.json

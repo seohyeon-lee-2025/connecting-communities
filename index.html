@@ -1,61 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Mutual Aid Map</title>
-    <style>
-      html, body {
-        height: 370px;
-        padding: 0;
-        margin: 0;
-        }
-      #map {
-       height: 360px;
-       width: 100%;
-       overflow: hidden;
-       float: left;
-       border: thin solid #333;
-       }
-      #capture {
-       height: auto;
-       width: 100%;
-       overflow: hidden;
-       float: left;
-       background-color: #ECECFB;
-       border: thin solid #333;
-       border-left: none;
-       }
-    </style>
+    <title>Collaborative Map</title>
+    <script>
+      // Read the API key from a text file
+      fetch('api_key.txt')
+        .then(response => response.text())
+        .then(apiKey => {
+          const script = document.createElement('script');
+          script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+          script.async = true;
+          script.defer = true;
+          document.head.appendChild(script);
+        })
+        .catch(error => {
+          console.error('Error reading API key:', error);
+        });
+    </script>
   </head>
   <body>
-    <div id="map"></div>
-    <!--<div id="capture"></div>-->
+    <div id="map" style="height: 400px; width: 100%;"></div>
     <script>
-      var map;
-      var src = 'https://github.com/seohyeon-lee-2025/mlh-allin-hack-2023/blob/5698e9fc038febc3af1c2c629680f90dcc73b7e1/Trash%20and%20Graffiti%20in%20San%20Antonio%20Creek%20-export-test.kml';
-
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(-19.257753, 146.823688),
-          zoom: 2,
-          mapTypeId: 'terrain'
-        });
-
-        var kmlLayer = new google.maps.KmlLayer(src, {
-          suppressInfoWindows: true,
-          preserveViewport: false,
-          map: map
-        });
-        kmlLayer.addListener('click', function(event) {
-          var content = event.featureData.infoWindowHtml;
-          var testimonial = document.getElementById('capture');
-          testimonial.innerHTML = content;
+        const map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 34.0977, lng: 117.7118 },
+          zoom: 1.0,
         });
       }
     </script>
-    <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATLLdb2y5OAvI5HzhJz6Ap6vdyleYKgg8&callback=initMap">
-    </script>
   </body>
 </html>
+
+
