@@ -2,25 +2,23 @@
 <html>
   <head>
     <title>Collaborative Map</title>
+
     <script>
-      // Read the API key from a text file
-      fetch('api_key.txt')
-        .then(response => response.text())
-        .then(apiKey => {
-          const script = document.createElement('script');
-          script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
-          script.async = true;
-          script.defer = true;
-          document.head.appendChild(script);
-        })
-        .catch(error => {
-          console.error('Error reading API key:', error);
-        });
+      // Function to initialize the Google Maps API
+      function initializeMap(apiKey) {
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+      }
     </script>
   </head>
   <body>
     <div id="map" style="height: 400px; width: 100%;"></div>
+
     <script>
+      // Function to initialize the map once the Google Maps API is loaded
       function initMap() {
         const map = new google.maps.Map(document.getElementById('map'), {
           center: { lat: 34.0977, lng: 117.7118 },
@@ -28,7 +26,23 @@
         });
       }
     </script>
+
+    <!-- Load the API key from api_key.txt and initialize the Google Maps API -->
+    <script>
+      fetch('api_key.txt')
+        .then(response => response.text())
+        .then(apiKey => {
+          initializeMap(apiKey);
+        })
+        .catch(error => {
+          console.error('Error reading API key:', error);
+        });
+    </script>
+
+    <!-- Include your app.js after the Google Maps API -->
+    <script src="app.js"></script>
   </body>
 </html>
+
 
 
