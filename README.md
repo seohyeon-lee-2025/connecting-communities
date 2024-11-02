@@ -53,14 +53,12 @@ We have a lot of work to do to bring this concept to fruition.
 HTML/CSS, JavaScript, Wix, Google MAP APIs, Velo, 
 Twilio, and Cloud Computing Service
 
-
-### See Website Live: [Here](https://emahtunan.wixsite.com/maargdarshak)
 Survey to add more locations: https://docs.google.com/forms/d/e/1FAIpQLSdD2YPb_RmV2MDQMV6BMHeX_RkSngrqsdybsUuYZLI4sE_luQ/viewform
 
 
 #### Feel free to connect with us!
 
-- [@seohyeon-lee-2025](https://github.com/seohyeon-lee-2025)
+- [@seohyeonlee2020](https://github.com/seohyeonlee2020)
 - [@Emmarie-Ahtunan](https://github.com/Emmarie-Ahtunan)
 - [@KshitizRana](https://github.com/KshitizRana)
 - [@stlajay](https://github.com/stlajay)
